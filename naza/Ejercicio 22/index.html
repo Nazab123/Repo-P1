@@ -1,0 +1,24 @@
+<!-- ⭐⭐Una nueva ley descuenta un 4% al total de cada compra si el pago se efectúa con tarjeta de crédito o débito y el monto es inferior a los $10000. Dado un ingreso de total de compra y si es con tarjeta ("si" o "no"), calcular el total final de la compra.
+Pago de $2000 con tarjeta, costo final -> $ 1920
+Pago de $12000 con tarjeta, costo final -> $12000
+Pago de $3000 sin tarjeta, costo final -> $3000 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 22</title>
+</head>
+<body>
+    <label>pago</label>
+    <input id="numPago" type="number">
+    <select id="sltDesc">
+    <option value="si">debito o credito</option>
+    <option value="no">otro</option>
+    </select>
+    <button id="btnVer">Ver total</button>
+    <p id="pResultado"></p>
+
+    <script src="server.js"></script>
+</body>
+</html>
