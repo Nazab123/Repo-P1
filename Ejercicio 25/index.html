@@ -1,0 +1,27 @@
+<!-- ⭐⭐Programar un sistema que administrará pedidos de compras de cámaras fotográficas. Al inicio de la aplicación se ingresa el stock inicial de cámaras disponibles para la venta. A continuación se comienzan a recibir solicitudes de pedidos del producto. El cliente ingresará su nombre y a continuación la cantidad de unidades que desea. Mientras haya stock disponible se seguirán procesando solicitudes. Si el pedido supera la cantidad de stock disponible restante, se deberá informar del problema y esa solicitud no se tendrá en cuenta. Al vaciar el stock, deshabilitar el botón de compra. Informar el nombre del cliente que compró más cantidad de cámaras en un pedido. Informar la cantidad de pedidos que se procesaron en total.
+ -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 25</title>
+</head>
+<body>
+    <label>ingrese el stock</label>
+    <input id="numStock" type="number">
+    <button id="btnStock">Cargar Stock</button>
+    <p id="pStock"></p>
+
+
+
+    <label> Nombre </label>
+    <input id="txtNombre">
+    <label> Cantidad deseada </label>
+    <input id="cantidadCliente" type="number">
+    <button id="btnCantidad">Pedir</button>
+    <p id="pResultado"></p>
+    
+    <script src="server.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!-- ⭐Ingresar dos valores y una operación ("S"-suma, "R"-resta, "M"-multiplicación, "D"-división) y presionar un botón, al presionar el botón, dependiendo de la operación ingresada hacer el cálculo correspondiente entre el primer valor y el segundo, mostrar el resultado. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11</title>
+</head>
+<body>
+    <label>valor 1</label>
+    <input id="numValor1" type="number">
+    <label>valor 2</label>
+    <input id="numValor2" type="number">
+    <button id="btnCalcular">Calcular</button>
+
+    <label>operacion</label>
+    <select id="sltop">
+    <option value="S">Suma</option>
+    <option value="R">Resta</option>
+    <option value="M">multiplicación</option>
+    <option value="D">división</option>
+</select>
+    <p id="pResultado"></p>
+
+<script src="server.js"></script>
+</body>
+</html>

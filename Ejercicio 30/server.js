@@ -1,0 +1,1 @@
+/* ⭐⭐⭐Crear un juego de Ta-Te-Ti, donde cada jugador pueda seleccionar el diseño de la pieza con la que va a jugar de una serie de opciones disponibles. */
